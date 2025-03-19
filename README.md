@@ -49,9 +49,13 @@ I strongly recommend removing the other cmake program paths for the system varia
 K:\Project_WXP\20241131_FEM_Palace\FEM_GPU\gslib_windows\build>where cmake
 D:\Program_Professional\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe
 ```
-
+Under HYPRE folder:
+```
+mkdir install
+```
 Then run cmake command:
 ```
+cd build
 cmake -G "NMake Makefiles" -DCMAKE_INSTALL_PREFIX=../install -DCMAKE_BUILD_TYPE=Release ../src
 ```
 
