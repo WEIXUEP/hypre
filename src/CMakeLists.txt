@@ -9,7 +9,7 @@ message(STATUS "CMake Version: ${CMAKE_VERSION}")
 
 # Include hypre's CMake utilities
 include("${CMAKE_CURRENT_SOURCE_DIR}/config/cmake/HYPRE_CMakeUtilities.cmake")
-
+add_definitions(-Dtrue=1 -Dfalse=0)
 # Set cmake policies
 if(POLICY CMP0146)
   cmake_policy(SET CMP0146 NEW) # Ensure CUDA toolkit is found

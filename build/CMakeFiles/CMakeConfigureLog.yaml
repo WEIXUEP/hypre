@@ -1,0 +1,267 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:40 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:40 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.43.34808 版
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.43.34808.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/3.30.5-msvc23/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:40 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:40 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/CMakeScratch/TryCompile-5xuwm9"
+      binary: "K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/CMakeScratch/TryCompile-5xuwm9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/CMakeScratch/TryCompile-5xuwm9'
+        
+        Run Build Command(s): "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_23dd9\\fast
+        	"D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_23dd9.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_23dd9.dir\\build
+        Building C object CMakeFiles/cmTC_23dd9.dir/CMakeCCompilerABI.c.obj
+        	"D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_23dd9.dir\\CMakeCCompilerABI.c.obj.d --working-dir=K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5xuwm9 --filter-prefix="注意: 包含文件:  " -- "D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe" @C:\\Users\\24762\\AppData\\Local\\Temp\\nm611.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_23dd9.exe
+        	"D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_23dd9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- "D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_23dd9.dir\\objects1.rsp @C:\\Users\\24762\\AppData\\Local\\Temp\\nm670.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_23dd9.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_23dd9.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_23dd9.dir/manifest.res CMakeFiles\\cmTC_23dd9.dir/manifest.rc
+        LINK Pass 1:
+        D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_23dd9.dir\\objects1.rsp /out:cmTC_23dd9.exe /implib:cmTC_23dd9.lib /pdb:K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5xuwm9\\cmTC_23dd9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_23dd9.dir/intermediate.manifest CMakeFiles\\cmTC_23dd9.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_23dd9.dir/intermediate.manifest /out:CMakeFiles\\cmTC_23dd9.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_23dd9.dir/manifest.res CMakeFiles\\cmTC_23dd9.dir/manifest.rc
+        FINAL LINK:
+        D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_23dd9.dir\\objects1.rsp /out:cmTC_23dd9.exe /implib:cmTC_23dd9.lib /pdb:K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5xuwm9\\cmTC_23dd9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_23dd9.dir/intermediate.manifest CMakeFiles\\cmTC_23dd9.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:40 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:40 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34808.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "config/cmake/HYPRE_CMakeUtilities.cmake:140 (find_package)"
+      - "CMakeLists.txt:363 (configure_mpi_target)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/CMakeScratch/TryCompile-eumtrk"
+      binary: "K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/CMakeScratch/TryCompile-eumtrk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/src/config/cmake;"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/CMakeScratch/TryCompile-eumtrk'
+        
+        Run Build Command(s): "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_888ac\\fast
+        	"D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_888ac.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_888ac.dir\\build
+        Building C object CMakeFiles/cmTC_888ac.dir/test_mpi.c.obj
+        	"D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_888ac.dir\\test_mpi.c.obj.d --working-dir=K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eumtrk --filter-prefix="注意: 包含文件:  " -- "D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe" @C:\\Users\\24762\\AppData\\Local\\Temp\\nmB31.tmp
+        test_mpi.c
+        Linking C executable cmTC_888ac.exe
+        	"D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_888ac.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- "D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_888ac.dir\\objects1.rsp @C:\\Users\\24762\\AppData\\Local\\Temp\\nmB90.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_888ac.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_888ac.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_888ac.dir/manifest.res CMakeFiles\\cmTC_888ac.dir/manifest.rc
+        LINK Pass 1:
+        D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_888ac.dir\\objects1.rsp /out:cmTC_888ac.exe /implib:cmTC_888ac.lib /pdb:K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eumtrk\\cmTC_888ac.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_888ac.dir/intermediate.manifest CMakeFiles\\cmTC_888ac.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_888ac.dir/intermediate.manifest /out:CMakeFiles\\cmTC_888ac.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_888ac.dir/manifest.res CMakeFiles\\cmTC_888ac.dir/manifest.rc
+        FINAL LINK:
+        D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_888ac.dir\\objects1.rsp /out:cmTC_888ac.exe /implib:cmTC_888ac.lib /pdb:K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eumtrk\\cmTC_888ac.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_888ac.dir/intermediate.manifest CMakeFiles\\cmTC_888ac.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "config/cmake/HYPRE_CMakeUtilities.cmake:176 (check_c_source_compiles)"
+      - "CMakeLists.txt:363 (configure_mpi_target)"
+    checks:
+      - "Performing Test HYPRE_HAVE_MPI_COMM_F2C"
+    directories:
+      source: "K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/CMakeScratch/TryCompile-6mjo7y"
+      binary: "K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/CMakeScratch/TryCompile-6mjo7y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/src/config/cmake;"
+    buildResult:
+      variable: "HYPRE_HAVE_MPI_COMM_F2C"
+      cached: true
+      stdout: |
+        Change Dir: 'K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/CMakeScratch/TryCompile-6mjo7y'
+        
+        Run Build Command(s): "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_ddc92\\fast
+        	"D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_ddc92.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_ddc92.dir\\build
+        Building C object CMakeFiles/cmTC_ddc92.dir/src.c.obj
+        	"D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_ddc92.dir\\src.c.obj.d --working-dir=K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6mjo7y --filter-prefix="注意: 包含文件:  " -- "D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe" @C:\\Users\\24762\\AppData\\Local\\Temp\\nmDB2.tmp
+        src.c
+        Linking C executable cmTC_ddc92.exe
+        	"D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ddc92.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- "D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_ddc92.dir\\objects1.rsp @C:\\Users\\24762\\AppData\\Local\\Temp\\nmE11.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_ddc92.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_ddc92.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_ddc92.dir/manifest.res CMakeFiles\\cmTC_ddc92.dir/manifest.rc
+        LINK Pass 1:
+        D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ddc92.dir\\objects1.rsp /out:cmTC_ddc92.exe /implib:cmTC_ddc92.lib /pdb:K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6mjo7y\\cmTC_ddc92.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ddc92.dir/intermediate.manifest CMakeFiles\\cmTC_ddc92.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_ddc92.dir/intermediate.manifest /out:CMakeFiles\\cmTC_ddc92.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_ddc92.dir/manifest.res CMakeFiles\\cmTC_ddc92.dir/manifest.rc
+        FINAL LINK:
+        D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ddc92.dir\\objects1.rsp /out:cmTC_ddc92.exe /implib:cmTC_ddc92.lib /pdb:K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6mjo7y\\cmTC_ddc92.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ddc92.dir/intermediate.manifest CMakeFiles\\cmTC_ddc92.dir/manifest.res
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "config/cmake/HYPRE_CMakeUtilities.cmake:140 (find_package)"
+      - "CMakeLists.txt:363 (configure_mpi_target)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/CMakeScratch/TryCompile-t39rtu"
+      binary: "K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/CMakeScratch/TryCompile-t39rtu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/src/config/cmake;"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'K:/Project_WXP/20241131_FEM_Palace/FEM_GPU/hypre/build/CMakeFiles/CMakeScratch/TryCompile-t39rtu'
+        
+        Run Build Command(s): "D:/Program_Professional/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_7a3ec\\fast
+        	"D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_7a3ec.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_7a3ec.dir\\build
+        Building C object CMakeFiles/cmTC_7a3ec.dir/test_mpi.c.obj
+        	"D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_7a3ec.dir\\test_mpi.c.obj.d --working-dir=K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t39rtu --filter-prefix="注意: 包含文件:  " -- "D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe" @C:\\Users\\24762\\AppData\\Local\\Temp\\nm793F.tmp
+        test_mpi.c
+        Linking C executable cmTC_7a3ec.exe
+        	"D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7a3ec.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- "D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_7a3ec.dir\\objects1.rsp @C:\\Users\\24762\\AppData\\Local\\Temp\\nm79AD.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_7a3ec.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_7a3ec.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_7a3ec.dir/manifest.res CMakeFiles\\cmTC_7a3ec.dir/manifest.rc
+        LINK Pass 1:
+        D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_7a3ec.dir\\objects1.rsp /out:cmTC_7a3ec.exe /implib:cmTC_7a3ec.lib /pdb:K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t39rtu\\cmTC_7a3ec.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7a3ec.dir/intermediate.manifest CMakeFiles\\cmTC_7a3ec.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_7a3ec.dir/intermediate.manifest /out:CMakeFiles\\cmTC_7a3ec.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_7a3ec.dir/manifest.res CMakeFiles\\cmTC_7a3ec.dir/manifest.rc
+        FINAL LINK:
+        D:\\Program_Professional\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_7a3ec.dir\\objects1.rsp /out:cmTC_7a3ec.exe /implib:cmTC_7a3ec.lib /pdb:K:\\Project_WXP\\20241131_FEM_Palace\\FEM_GPU\\hypre\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t39rtu\\cmTC_7a3ec.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7a3ec.dir/intermediate.manifest CMakeFiles\\cmTC_7a3ec.dir/manifest.res
+        
+      exitCode: 0
+...
